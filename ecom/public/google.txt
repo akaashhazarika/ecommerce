@@ -1,0 +1,176 @@
+Hello we are Akaash and Naman 
+
+We are going to show an authentication flaw that can help us do the following in a gmail account:
+1. Constantly monitor the account of the victim and can view or send messages to anyone. This is a huge breach in the privacy of an individual.
+2. The victim will also be not prompted of a suspicious sign in from a different device message that generally pops up when signed in devices are different. 
+3. This flaw can also be exploited even when the attacker and the victim are on different networks.
+4. What makes matters worse is that even after changing the password, the attacker still have the same privileges.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How can it be exploited: By having physical access to the target machine or writing scripts to capture the cookie of gmail.
+We are going to  show the method on a physical access scenerio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are going to exploit this using cookies and we are going to have an chrome extension EditThisCookie::
+
+In this video we are going to display this in the same machine but this will also work in different machines and different networks::
+
+First we are opening my own private gmail account in incognito and the test email in the normal browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are going to first log in to the test email->Export the cookies and logout from the email.
+
+Next we are going to open the gmail website ->enter the test email and type www.gmail.com from the user after importing the saved cookies!
+
+We then test creating and viewing mail of the victim.
+
+As we see we are quite successful
+
+Inspite of the authentication error we can recieve messages!
+Sending an email to ron from my email
+As you see we have captured the email 
+We can even send email:
+
+
+
+
+
+
+
+
+
+
+
+
+
+What if a person changes his password!!
+
+
+
+
+
+
+
+
+
+
+
+we are signed to the target email->Copy the cookie
+
+Then we change the password
+
+And sign out from gmail
+
+
+
+
+
+
+
+
+
+
+Remember we have the cookie saved before changing the password!!
+
+
+We are going to import it
+
+We are recieving the same notification. BUt still we can do anything!
+
+
+
+
+
+
+
+
+
+
+
+
+Sadly or happily(sarcastically speaking)-> Even after changing the password attacker has 
+gained the same privelages
+
+
+
+
+now we will send a test email
+
+
+
+
+
+
+
+
+
+Due to constraints we are not able to show the following points which also work that is
+
+ User wont be prompted of a new suspicious sign in message that comes from devices that are not familiar!
+
+Thanks
+
+Akaash,Naman
+
+
+
+
